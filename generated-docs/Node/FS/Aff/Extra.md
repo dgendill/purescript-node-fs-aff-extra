@@ -1,9 +1,9 @@
 ## Module Node.FS.Aff.Extra
 
 This module defines some additional functions not included in Node.FS.Aff
-and uses newtype wrappers for FilePath arguments, e.g. instead of
-`copyFile "file" "file2"` we use `copyFile (From "file") (To "file2")`.
-See Node.FS.Aff.Extra.Simple for functions don't require newtype wrappers.
+and uses newtype wrappers from `Node.FS.Aff.Extra.Types` to wrap FilePath
+arguments, e.g. instead of `copyFile "file" "file2"` we use `copyFile (From "file") (To "file2")`.
+See `Node.FS.Aff.Extra.Simple` for functions don't require the newtype wrappers.
 
 #### `writeTextFile`
 
