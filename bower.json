@@ -1,8 +1,6 @@
 {
   "name": "purescript-node-fs-extra",
-  "authors": [
-    "Dominick Gendill"
-  ],
+  "author": "Dominick Gendill",
   "repository": {
     "type": "git",
     "url": "git://github.com/dgendill/purescript-node-fs-aff-extra.git"

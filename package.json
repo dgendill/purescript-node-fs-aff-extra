@@ -1,14 +1,15 @@
 {
   "name": "purescript-node-fs-aff-extra",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Provides non-standard functions not included in purescript-node-fs",
-  "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "pulp test"
   },
-  "author": "Dominick Gendill",
+  "maintainers": [
+    "Dominick Gendill (https://www.dgendill.com)"
+  ],
   "license": "MIT"
 }
