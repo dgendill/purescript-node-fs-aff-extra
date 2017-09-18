@@ -1,0 +1,25 @@
+{
+  "name": "purescript-node-fs-extra",
+  "authors": [
+    "Dominick Gendill"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dgendill/purescript-node-fs-aff-extra.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^3.1.0",
+    "purescript-node-fs-aff": "git://github.com/natefaubion/purescript-node-fs-aff#aff-updates"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^3.0.0",
+    "purescript-console": "^3.0.0",
+    "purescript-test-unit": "git://github.com/natefaubion/purescript-test-unit#aff-updates"
+  }
+}
